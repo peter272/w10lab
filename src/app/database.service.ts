@@ -38,7 +38,7 @@ export class DatabaseService {
     return this.http.delete(url, httpOptions);
   }
   deleteMovieYear(aYear) {
-    let url = "/movies/year/" + aYear;
+    let url = "/moviess/" + aYear;
     return this.http.delete(url, httpOptions);
   }
   AddActor(id1, id2){

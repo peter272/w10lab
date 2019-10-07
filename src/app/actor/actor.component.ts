@@ -67,6 +67,7 @@ export class ActorComponent implements OnInit {
     this.actorId = "";
     this.title = '';
     this.year=0;
+    this.aYear=0;
 
   }
   //PART 5: list Movies

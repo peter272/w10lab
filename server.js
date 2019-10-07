@@ -49,4 +49,4 @@ app.post('/movies/:id1/:id2', movies.addActor);
 app.get('/movies/:year1/:year2', movies.findByYear);
 
 //7. Delete movie by after certain year
-app.delete('/movies/year/:aYear', movies.deleteMovieYear);
+app.delete('/moviess/:aYear', movies.deleteMovieYear);

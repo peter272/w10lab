@@ -86,7 +86,7 @@ module.exports = {
         });
     },
     deleteMovieYear: function(req,res){
-    let aYear = req.params.aYear;
+    let aYear = parseInt(req.params.aYear);
     let query= {year:{$lt:aYear}}
     Movie.deleteMany(query,function (err) {
         if (err) return res.status(400).json(err);
